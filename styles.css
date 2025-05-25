@@ -14,7 +14,7 @@ body {
 }
 
 #box {
-    width: 500px;
+    min-width: 500px;
     height: 700px;
     background-color: #EFEEEA;
     border-radius: 20px;
