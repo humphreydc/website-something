@@ -14,8 +14,9 @@ body {
 }
 
 #box {
-    min-width: 500px;
-    height: 700px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
     background-color: #EFEEEA;
     border-radius: 20px;
     margin: 20px;
