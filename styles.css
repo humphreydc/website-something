@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393E46;
+    font-family: Helvetica, sans-serif;
+    background-image: url("https://humphreydc.github.io/website-something/images/GEDC0861.JPG");
+}
+
+#box {
+    width: 500px;
+    height: 700px;
+    background-color: #EFEEEA;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+#title {
+  padding: 10px;
+  text-align: center;
+}
+
+#description {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  line-height: 2;
+}
+
+#fav-meal {
+    text-align: left;
+}
+
+legend {
+    padding-top: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+textarea {
+    padding: 5px;
+}
+#submit {
+    padding: 5px;
+    margin-top: 10px;
+    width: 70px;
+}
+
+#button {
+    display: flex;
+    justify-self: center;
+}
